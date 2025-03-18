@@ -6,4 +6,8 @@
     <groupId>com.geometry</groupId>
     <artifactId>geometry-library</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>GeometryUtils</module>
+    </modules>
 </project>
