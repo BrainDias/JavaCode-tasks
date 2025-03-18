@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="geometry-core" />
-        <module name="GeometryUtils" />
+        <module name="geometry-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="geometry-library" target="1.5" />
+      <module name="GeometryUtils" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
