@@ -9,5 +9,8 @@
         <module name="GeometryUtils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="geometry-library" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
