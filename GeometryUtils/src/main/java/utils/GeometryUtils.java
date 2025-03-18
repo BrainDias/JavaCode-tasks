@@ -1,3 +1,5 @@
+package utils;
+
 public class GeometryUtils {
     // Преобразование из сантиметров в метры
     public static double cmToMeters(double cm) {
