@@ -9,5 +9,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>GeometryUtils</module>
+        <module>geometry-core</module>
     </modules>
 </project>
