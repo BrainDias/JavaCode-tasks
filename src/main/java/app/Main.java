@@ -20,5 +20,11 @@ public class Main {
         System.out.println("\nTriangle:");
         System.out.println("Area: " + triangle.getArea());
         System.out.println("Perimeter: " + triangle.getPerimeter());
+
+        // Используем GeometryUtils
+        double radius1 = 5.0;
+        double radius2 = 5.0;
+        boolean areEqual = GeometryUtils.areCirclesEqual(radius1, radius2);
+        System.out.println("Are the circles equal? " + areEqual);
     }
 }

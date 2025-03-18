@@ -20,5 +20,10 @@
             <artifactId>geometry-library</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.geometry</groupId>
+            <artifactId>GeometryUtils</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
