@@ -3,6 +3,7 @@ package app;
 import geometry.Circle;
 import geometry.Rectangle;
 import geometry.Triangle;
+import utils.GeometryUtils;
 
 public class Main {
     public static void main(String[] args) {
