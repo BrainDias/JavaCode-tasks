@@ -3,7 +3,6 @@ package org.objectmapper.controllers;
 import lombok.RequiredArgsConstructor;
 import org.objectmapper.entities.Order;
 import org.objectmapper.services.OrderService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

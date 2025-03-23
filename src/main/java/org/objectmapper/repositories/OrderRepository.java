@@ -1,2 +1,8 @@
-package org.objectmapper.repositories;public interface OrderRepository {
+package org.objectmapper.repositories;
+
+import org.objectmapper.entities.Order;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderRepository extends JpaRepository<Order, Long> {
 }
+
