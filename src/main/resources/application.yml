@@ -11,8 +11,7 @@ spring:
     oauth2:
       client:
         registration:
-          google:
-            client-id: your-client-id
-            client-secret: your-client-secret
+          github:
+            client-id: Ov23liHv1G4UqgCd0ruX
+            client-secret: 3951d6db3a88586db6d6c548f98e01061199277b
             scope: profile, email
-            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
